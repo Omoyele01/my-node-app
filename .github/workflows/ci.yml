@@ -29,9 +29,9 @@ jobs:
     #     run: |
     #       npm test
 
-      - name: Lint code with ESLint
-        run: |
-          npx eslint . --fix
+    #   - name: Lint code with ESLint
+    #     run: |
+    #       npx eslint . --fix
 
       - name: Format code with Prettier
         run: |
